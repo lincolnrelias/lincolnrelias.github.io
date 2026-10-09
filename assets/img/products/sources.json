@@ -1,0 +1,40 @@
+[
+  {
+    "file": "assets/img/products/claro-icon.png",
+    "source_page": "https://play.google.com/store/apps/details?id=br.com.netcombo.now&hl=pt_BR",
+    "asset_url": "https://play-lh.googleusercontent.com/k-ptC7170a_o4USElVSKtj8HqxLR9r7qSjzqJCjzisuSu7-K1nlEV1Z_oqhot2_Jzw0Hd7ImNWxls1x_9rB_MJA=w256",
+    "retrieved": "2026-10-09",
+    "owner": "Claro Brasil"
+  },
+  {
+    "file": "assets/img/products/novibet-icon.png",
+    "source_page": "https://play.google.com/store/apps/details?id=ie.novibet.sports.betting&hl=en_GB&gl=IE",
+    "asset_url": "https://play-lh.googleusercontent.com/6CFY_4Z_WtrqkAvn80_GXdFi4kHLQ8DB2ScuCZheCLrmlwWv7etCKdIjkASvzcFtxwcppyc9ulafGg5DNgsh6w=w256",
+    "retrieved": "2026-10-09",
+    "owner": "Novibet"
+  },
+  {
+    "file": "assets/img/products/claro-tv-interface.png",
+    "source_page": "https://play.google.com/store/apps/details?id=br.com.claro.now.smarttvclient&hl=en",
+    "asset_url": "https://play-lh.googleusercontent.com/fLp6FnhpbIJt-VpaOUcVu1kPgvTBar0bPq_d9roCApAJrcUmAt6LIiSoLysy_v0gRtt05XuWvlHLtJWQCi_R=w1200",
+    "retrieved": "2026-10-09",
+    "owner": "Claro Brasil",
+    "usage": "Public product visual; displayed with a CSS crop. May differ by version and region."
+  },
+  {
+    "file": "assets/img/products/claro-tv-playback.png",
+    "source_page": "https://play.google.com/store/apps/details?id=br.com.claro.now.smarttvclient&hl=en",
+    "asset_url": "https://play-lh.googleusercontent.com/PIGm1GWVfuvDxMshDIgG8slb5PG5bYfffSTDtcIY7pJkdMb-WKmrV_WV5c7y6Pac3k4WDe3Q9t4ZJqPaNj6HzQ=w1200",
+    "retrieved": "2026-10-09",
+    "owner": "Claro Brasil",
+    "usage": "Public product visual; displayed with a CSS crop. May differ by version and region."
+  },
+  {
+    "file": "assets/img/products/novibet-interface.jpg",
+    "source_page": "https://play.google.com/store/apps/details?id=gr.novibet.sports.betting&hl=en",
+    "asset_url": "https://play-lh.googleusercontent.com/pQ3BivvISI9swq0Ma0F1roF6ne5KrN48_XltMNOlS-BD0Rme_4_7WNjoOENK4rE8N5ucWlQyz3wq3WxsNB1YL0A=w1200",
+    "retrieved": "2026-10-09",
+    "owner": "Novibet",
+    "usage": "Public product visual; displayed with a CSS crop. May differ by version and region."
+  }
+]

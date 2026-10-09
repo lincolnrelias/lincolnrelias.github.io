@@ -1,127 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Home - Lincoln dos Reis Elias</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9HWBQJV7H3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  
-  gtag('config', 'G-9HWBQJV7H3');
-</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11191e">
+  <title>Lincoln Elias — Senior Android Engineer</title>
+  <meta name="description" content="Senior Android Engineer in São Paulo. Kotlin, Jetpack Compose, Android TV, streaming, and scalable native apps. Explore Lincoln Elias’s experience and selected work.">
+  <link rel="canonical" href="https://lincolnrelias.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lincoln Elias — Senior Android Engineer">
+  <meta property="og:description" content="Native Android. Made to feel effortless. Kotlin, Compose, mobile & TV — built with care, at scale.">
+  <meta property="og:url" content="https://lincolnrelias.github.io/">
+  <meta property="og:image" content="https://lincolnrelias.github.io/assets/img/lincoln-elias.png">
+  <meta property="og:image:alt" content="Portrait of Lincoln Elias">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/font-1.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/font-5.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/main.js" defer></script>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Person","name":"Lincoln Reis Elias","url":"https://lincolnrelias.github.io/","image":"https://lincolnrelias.github.io/assets/img/lincoln-elias.png","jobTitle":"Senior Android Engineer","email":"lincolnreistkd@gmail.com","address":{"@type":"PostalAddress","addressLocality":"São Paulo","addressCountry":"BR"},"alumniOf":{"@type":"CollegeOrUniversity","name":"University of São Paulo"},"sameAs":["https://www.linkedin.com/in/lincolnreiselias/","https://github.com/lincolnrelias"],"knowsAbout":["Kotlin","Jetpack Compose","Android","Android TV","Clean Architecture","Media streaming"]}
+  </script>
 </head>
-
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-      
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-         <img src="assets/img/logo.png" alt=""> 
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Lincoln Elias home">
+        <span class="brand-mark" aria-hidden="true">le.</span>
+        <span class="brand-name">Lincoln Elias<span data-i18n="brandRole">Android Engineer</span></span>
       </a>
-      
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="currículo.html">Currículo</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      <nav class="desktop-nav" aria-label="Main navigation" data-i18n-aria="navLabel">
+        <a href="#work" data-i18n="navWork">Selected products</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#expertise" data-i18n="navExpertise">Expertise</a>
       </nav>
-
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="languageLabel">
+          <button type="button" data-language="en" aria-pressed="true">EN</button><span aria-hidden="true">/</span><button type="button" data-language="pt" aria-pressed="false">PT</button>
+        </div>
+        <a class="header-contact" href="#contact"><span data-i18n="navContact">Let’s talk</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation" data-i18n-aria="menuOpen"><span></span><span></span></button>
+      </div>
     </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" data-i18n-aria="mobileNavLabel" hidden>
+      <a href="#work" data-i18n="navWork">Selected products</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
+      <a href="#expertise" data-i18n="navExpertise">Expertise</a>
+      <a href="#contact" data-i18n="navContact">Let’s talk</a>
+    </nav>
   </header>
 
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/cover.png" alt="" data-aos="fade-in">
-      
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Lincoln dos Reis Elias</h2>
-        <p>Sou <span class="typed" data-typed-items="Desenvolvedor Android, Engenheiro de Software, Desenvolvedor Web, Game Dev"></span><span class="typed-cursor typed-cursor--blink"></span></p>
-        <div class="social-links">
-          <a target="_blank" href="github.com/lincolnrelias"><i class="bi bi-github"></i></a>
-          <a target="_blank" href="https://www.instagram.com/lincolnreiselias/"><i class="bi bi-instagram"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/lincolnreiselias/"><i class="bi bi-linkedin"></i></a>
+  <main id="main">
+    <section class="hero-shell" aria-labelledby="hero-title">
+      <div class="hero-atmosphere" aria-hidden="true"></div>
+      <div class="container hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-i18n="heroEyebrow">Senior Android Engineer</span></p>
+          <h1 id="hero-title"><span data-i18n="heroLine1">Native Android.</span><em data-i18n="heroLine2">Made to feel<br>effortless.</em></h1>
+          <p class="hero-description" data-i18n="heroDescription">Thoughtful architecture. Responsive interfaces. Reliable playback. I build Android experiences that work beautifully, from the smallest screen to the living room.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work"><span data-i18n="exploreWork">Explore my work</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+            <details class="resume-download resume-download--hero"><summary class="text-link"><span data-i18n="downloadResume">Download résumé</span><svg class="resume-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></summary><div class="resume-options" role="group" aria-label="CV language" data-i18n-aria="resumeLanguage"><p data-i18n="resumeLanguage">CV language</p><a href="assets/docs/lincoln-elias-resume.pdf" download="Lincoln-Elias-CV-EN-US.pdf"><span lang="en">English</span><span class="resume-language-code">EN-US</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg></a><a href="assets/docs/lincoln-elias-resume-pt-br.pdf" download="Lincoln-Elias-CV-PT-BR.pdf"><span lang="pt-BR">Português</span><span class="resume-language-code">PT-BR</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg></a></div></details>
+          </div>
+          <div class="profile-signature">
+            <img src="assets/img/lincoln-elias.png" width="1254" height="1254" alt="Portrait of Lincoln Elias" data-i18n-alt="portraitAlt">
+            <div><strong>Lincoln Elias</strong><span data-i18n="location">São Paulo, Brazil</span></div>
+            <span class="signature-line" aria-hidden="true"></span><span class="signature-platforms">Kotlin<br>Jetpack Compose</span>
+          </div>
+        </div>
+        <div class="product-stage">
+          <div class="stage-orbit" aria-hidden="true"></div>
+          <div class="stage-caption"><span class="stage-line" aria-hidden="true"></span><span data-i18n="stageCaption">Engineering behind the experience</span></div>
+          <a class="hero-tv glass-panel" href="#claro-project" aria-label="See my work on Claro tv+" data-i18n-aria="claroExplore">
+            <div class="device-topline"><span class="device-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>claro tv+</span><span>ANDROID TV</span></div>
+            <div class="claro-screen"><img src="assets/img/products/claro-tv-interface.png" width="1200" height="675" alt="Public Claro tv+ visual showing the Android TV title interface" data-i18n-alt="claroAlt" fetchpriority="high"></div>
+            <div class="device-bottomline"><span data-i18n="heroTvLabel">Streaming, at scale.</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></div>
+          </a>
+          <a class="hero-phone" href="#novibet-project" aria-label="See my work at Novibet" data-i18n-aria="novibetExplore"><div class="phone-camera" aria-hidden="true"></div><div class="novibet-screen"><img src="assets/img/products/novibet-interface.jpg" width="1080" height="2340" alt="Public Novibet Android product visual showing its live casino interface" data-i18n-alt="novibetAlt"></div></a>
+          <div class="stage-badge glass-panel"><img src="assets/img/products/novibet-icon.png" width="256" height="256" alt=""><span>Novibet<small data-i18n="heroMobileLabel">Native mobile · Real-time</small></span><span class="badge-dot" aria-hidden="true"></span></div>
+          <span class="stage-index" aria-hidden="true">MOBILE / TV / STREAMING</span>
         </div>
       </div>
+      <div class="container proof" aria-label="Career highlights" data-i18n-aria="proofLabel">
+        <div class="proof-intro"><span class="eyebrow" data-i18n="proofEyebrow">Care in the details.</span><p data-i18n="proofIntro">Impact at scale.</p></div>
+        <div class="proof-item"><strong>1M<span>+</span></strong><p data-i18n="proofUsers">Active users on streaming<br>apps at Global Hitss</p></div>
+        <div class="proof-item"><strong>99<span>%</span></strong><p data-i18n="proofStability">Crash-free sessions<br>at Global Hitss</p></div>
+        <div class="proof-item"><strong>3.0 <span class="metric-arrow">↗</span> 4.7</strong><p data-i18n="proofRating">Play Store rating improvement<br>on newer releases at Open Labs</p></div>
+      </div>
+    </section>
 
-    </section><!-- /Hero Section -->
+    <section id="work" class="section work-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">01</span><span data-i18n="workEyebrow">Selected products</span></p><h2 data-i18n="workTitle">Real products.<br><em>Considered engineering.</em></h2></div><p class="section-description" data-i18n="workIntro">Professional work across streaming and gaming. The product context, my contribution, and the engineering behind it.</p></div>
+        <article id="claro-project" class="product-card claro-card">
+          <div class="product-art claro-art">
+            <span class="art-kicker">01 / STREAMING</span><span class="art-wordmark">claro<span>tv+</span></span>
+            <div class="playback-peek" aria-hidden="true"><div class="claro-screen"><img src="assets/img/products/claro-tv-playback.png" width="1200" height="675" alt="" loading="lazy"></div></div>
+            <div class="product-tv"><div class="claro-screen"><img src="assets/img/products/claro-tv-interface.png" width="1200" height="675" alt="Public Claro tv+ visual showing the Android TV title interface" data-i18n-alt="claroAlt" loading="lazy"></div><span class="tv-foot" aria-hidden="true"></span></div>
+            <div class="art-footer"><span>ANDROID · ANDROID TV · FIRE TV</span><span data-i18n="claroArtLabel">Built for the living room.</span></div>
+          </div>
+          <div class="product-content">
+            <p class="eyebrow">Global Hitss · 2024–2026</p><h3>Claro tv<span class="title-dot">+</span></h3>
+            <p class="product-summary" data-i18n="claroSummary">A streaming experience across mobile and TV, serving more than one million active users.</p>
+            <p class="contribution-label" data-i18n="contributionLabel">My contribution</p>
+            <ul class="contribution-list"><li data-i18n="claroContribution1">Compose components and remote-control focus systems for TV.</li><li data-i18n="claroContribution2">DRM playback with Bitmovin, performance on constrained devices, and session stability.</li></ul>
+            <div class="tags"><span>Jetpack Compose</span><span>Bitmovin · DRM</span><span>Android TV</span></div>
+            <a class="source-link" href="https://play.google.com/store/apps/details?id=br.com.claro.now.smarttvclient" target="_blank" rel="noopener noreferrer"><span data-i18n="publicProduct">Public product page</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <div class="product-grid">
+          <article id="novibet-project" class="product-card novibet-card">
+            <div class="product-art novibet-art"><span class="art-kicker">02 / NATIVE MOBILE</span><span class="novibet-wordmark">novibet<span>.</span></span><div class="novibet-art-orbit" aria-hidden="true"></div><div class="product-phone"><div class="phone-camera" aria-hidden="true"></div><div class="novibet-screen"><img src="assets/img/products/novibet-interface.jpg" width="1080" height="2340" alt="Public Novibet Android product visual showing its live casino interface" data-i18n-alt="novibetAlt" loading="lazy"></div></div><span class="art-side-note" data-i18n="novibetArtLabel">Real-time.<br>Native by design.</span><span class="art-bottom-label">KOTLIN / COMPOSE / FLOW</span></div>
+            <div class="product-content"><p class="eyebrow"><span>Novibet · 2026</span><span class="current-badge" data-i18n="current">Current</span></p><h3>Novibet<span class="title-dot">.</span></h3><p class="product-summary" data-i18n="novibetSummary">Native Android experiences for a live sportsbook and casino product.</p><p class="contribution-label" data-i18n="contributionLabel">My contribution</p><ul class="contribution-list"><li data-i18n="novibetContribution1">Compose interfaces, reactive state, and modernization of XML and RxJava.</li><li data-i18n="novibetContribution2">Provider integrations, authentication, and native / WebView communication.</li></ul><div class="tags"><span>Kotlin</span><span>Coroutines & Flow</span><span>Clean Architecture</span></div><a class="source-link" href="https://play.google.com/store/apps/details?id=gr.novibet.sports.betting" target="_blank" rel="noopener noreferrer"><span data-i18n="publicProduct">Public product page</span><span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="product-card oi-card">
+            <a class="product-art oi-art" href="portfolio-details-oi.html" aria-label="Explore the Oi Play project" data-i18n-aria="oiExplore"><span class="art-kicker">03 / MOBILE & TV</span><span class="oi-wordmark">oi<span>_</span>play</span><div class="tv-device"><div class="tv-screen"><img src="assets/img/portfolio/oi-5.png" width="1024" height="728" alt="Oi Play Android TV interface with movies, series, and content categories" data-i18n-alt="oiPreviewAlt" loading="lazy"></div><div class="tv-stand" aria-hidden="true"></div></div><div class="art-footer"><span data-i18n="oiVisualCaption">Made for the big screen.</span><span class="round-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></span></div></a>
+            <div class="product-content"><p class="eyebrow">Open Labs · 2021–2024</p><h3>Oi Play<span class="title-dot">.</span></h3><p class="product-summary" data-i18n="oiDescription">Entertainment, from the palm of your hand to the living room. Native Android development for Oi’s video and audio streaming experience.</p><p class="contribution-label" data-i18n="contributionLabel">My contribution</p><ul class="contribution-list"><li data-i18n="oiContribution1">Native Android development for mobile and TV.</li><li data-i18n="oiContribution2">Streaming interfaces for on-demand content and live channels.</li></ul><div class="tags"><span>Kotlin</span><span>Android TV</span><span>Streaming</span></div><a class="text-link" href="portfolio-details-oi.html"><span data-i18n="oiViewProject">Explore the project</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div>
+          </article>
+        </div>
+        <p class="work-note" data-i18n="workNote">Claro tv+ and Novibet visuals come from their official Google Play pages and may vary by version or region. Oi Play screens are from the original portfolio. Professional source code is private.</p>
+      </div>
+    </section>
 
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="section-number">02</span><span data-i18n="experienceEyebrow">The experience</span></p><h2 data-i18n="experienceTitle">Building what’s next.</h2></div>
+          <p class="section-description" data-i18n="experienceIntro">From streaming in the living room to real-time experiences on mobile. A career focused on making complex products feel simple.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-row">
+            <div class="experience-company"><img class="company-monogram" src="assets/img/products/novibet-icon.png" width="256" height="256" alt=""><div><h3>Novibet</h3><p data-i18n="novibetIndustry">Gaming & sportsbook</p></div></div>
+            <div class="experience-content"><div class="role-heading"><h4 data-i18n="novibetRole">Android Engineer</h4><span class="current-badge" data-i18n="current">Current</span></div><p class="experience-date" data-i18n="novibetDate">Jun 2026 — Present · São Paulo</p><ul><li data-i18n="novibet1">Building native features and real-time, data-driven interfaces with Kotlin, Compose, Coroutines, and Flow.</li><li data-i18n="novibet2">Modernizing XML and RxJava codebases, and integrating third-party providers across native and WebView experiences.</li></ul><div class="tags" aria-label="Technologies"><span>Kotlin</span><span>Jetpack Compose</span><span>Coroutines & Flow</span></div></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-company"><img class="company-monogram" src="assets/img/products/claro-icon.png" width="256" height="256" alt=""><div><h3>Global Hitss</h3><p data-i18n="hitssIndustry">Streaming · Mobile & TV</p></div></div>
+            <div class="experience-content"><div class="role-heading"><h4 data-i18n="hitssRole">Specialist Android Engineer</h4></div><p class="experience-date" data-i18n="hitssDate">Dec 2024 — Mar 2026 · São Paulo</p><ul><li data-i18n="hitss1">Delivered streaming apps for 1M+ active users across Android Mobile, Android TV, and Fire TV.</li><li data-i18n="hitss2">Built Compose UI systems, custom TV focus management, reusable components, and DRM-protected Bitmovin playback.</li><li data-i18n="hitss3">Optimized rendering on constrained devices and reduced crashes and ANRs to below 0.1% of sessions.</li></ul><div class="tags" aria-label="Technologies"><span>Android TV</span><span>Fire TV</span><span>Bitmovin</span><span>Clean Architecture</span></div></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-company"><span class="company-monogram openlabs-mark" aria-hidden="true">ol.</span><div><h3>Open Labs</h3><p data-i18n="labsIndustry">Native Android & OTT</p></div></div>
+            <div class="experience-content"><div class="role-heading"><h4 data-i18n="labsRole">Android Engineer</h4></div><p class="experience-date" data-i18n="labsDate">Apr 2021 — Jan 2024 · São Paulo</p><ul><li data-i18n="labs1">Developed and maintained native Kotlin apps, with modular architecture, Crashlytics monitoring, and JUnit / Mockito testing.</li><li data-i18n="labs2">Led engineers in restructuring favourites, live playback, and profiles; newer releases improved the Play Store rating from 3.0 to 4.7.</li><li data-i18n="labs3">Created an OTT prototype in React Native and contributed to streaming UI redesigns with Figma.</li></ul><div class="tags" aria-label="Technologies"><span>Kotlin</span><span>Firebase</span><span>JUnit & Mockito</span><span>React Native</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section expertise-section">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow"><span class="section-number">03</span><span data-i18n="expertiseEyebrow">How I work</span></p><h2 data-i18n="expertiseTitle">Depth where it matters.</h2></div><p class="section-description" data-i18n="expertiseIntro">Solid foundations, considered interfaces, and the attention to performance that production apps demand.</p></div>
+        <div class="expertise-grid">
+          <article class="expertise-item"><span class="expertise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M13 6h6M14 25h4"/></svg></span><h3 data-i18n="expertiseNativeTitle">Native Android</h3><p data-i18n="expertiseNativeDescription">Modern Kotlin apps, Compose interfaces, and pragmatic migrations from legacy stacks.</p><div class="skill-lines"><span>Kotlin · Java · Python · Android SDK</span><span>Jetpack Compose · Coroutines · Flow</span><span>Retrofit · OkHttp</span></div></article>
+          <article class="expertise-item"><span class="expertise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="18" rx="2"/><path d="m13 10 7 4-7 4ZM11 28h10m-5-5v5"/></svg></span><h3 data-i18n="expertiseMediaTitle">TV & media</h3><p data-i18n="expertiseMediaDescription">Remote-first navigation, custom players, and reliable streaming on constrained devices.</p><div class="skill-lines"><span>Android TV · Fire TV</span><span>Bitmovin · ExoPlayer</span><span>DRM · Widevine</span></div></article>
+          <article class="expertise-item"><span class="expertise-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m16 3 13 7-13 7L3 10Zm-13 14 13 7 13-7M3 24l13 7 13-7"/></svg></span><h3 data-i18n="expertiseArchitectureTitle">Architecture & quality</h3><p data-i18n="expertiseArchitectureDescription">Modular systems that stay maintainable as products and teams grow.</p><div class="skill-lines"><span>MVVM · Clean Architecture · SOLID</span><span data-i18n="modularisation">Modularisation · State management</span><span>Crashlytics · JUnit · Mockito</span></div></article>
+        </div>
+        <div class="education-row"><div class="education-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m2 11 14-7 14 7-14 7Zm5 3v9c5 4 13 4 18 0v-9m5-3v12"/></svg></div><div><span class="eyebrow" data-i18n="educationLabel">Education</span><h3 data-i18n="educationDegree">BSc in Information Systems</h3><p data-i18n="educationUniversity">University of São Paulo (USP) · 2019–2022</p></div><div class="languages"><span data-i18n="portuguese">Portuguese <strong>Native</strong></span><span data-i18n="english">English <strong>Advanced</strong></span></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-inner"><div><p class="eyebrow" data-i18n="contactEyebrow">Let’s connect</p><h2 data-i18n="contactTitle">Have something<br><em>great in mind?</em></h2><p data-i18n="contactDescription">Hiring for Android, mobile, or TV? Let’s talk about the team, the product, and what we could build together.</p></div><div class="contact-actions"><a class="contact-email" href="mailto:lincolnreistkd@gmail.com">lincolnreistkd@gmail.com<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a><div class="contact-secondary"><button class="copy-email" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4H4v12h4"/></svg><span data-i18n="copyEmail">Copy email</span></button><a href="https://www.linkedin.com/in/lincolnreiselias/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/lincolnrelias" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div><details class="resume-download resume-download--contact"><summary class="contact-resume"><span data-i18n="downloadFullResume">Download my full résumé</span><svg class="resume-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></summary><div class="resume-options" role="group" aria-label="CV language" data-i18n-aria="resumeLanguage"><p data-i18n="resumeLanguage">CV language</p><a href="assets/docs/lincoln-elias-resume.pdf" download="Lincoln-Elias-CV-EN-US.pdf"><span lang="en">English</span><span class="resume-language-code">EN-US</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg></a><a href="assets/docs/lincoln-elias-resume-pt-br.pdf" download="Lincoln-Elias-CV-PT-BR.pdf"><span lang="pt-BR">Português</span><span class="resume-language-code">PT-BR</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4"/></svg></a></div></details><p class="contact-location" data-i18n="contactLocation">Based in São Paulo, Brazil · UTC−3</p></div></div>
+    </section>
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      
-      <p>"A vitória é apenas um prelúdio da próxima batalha" <b> - soldado Space Marine</b></p>
-      <div class="social-links d-flex justify-content-center">
-        
-        <a href="https://www.instagram.com/lincolnreiselias/" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://join.skype.com/invite/tkGy55Eh5T5D" target="_blank"><i class="bi bi-skype"></i></a>
-        <a href="https://www.linkedin.com/in/lincolnreiselias/" target="_blank"><i class="bi bi-linkedin"></i></a>
-<a href="https://github.com/lincolnrelias" target="_blank"><i class="bi bi-github"></i></a>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Lincoln Elias - 2024 </strong> <span>All Rights Reserved ©</span>
-        </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+  <footer class="site-footer container"><p>© <span data-year>2026</span> Lincoln Reis Elias</p><p data-i18n="footerNote">Built with intention. Down to the details.</p><a href="#main"><span data-i18n="backTop">Back to top</span><span aria-hidden="true">↑</span></a></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
 </body>
-
 </html>
